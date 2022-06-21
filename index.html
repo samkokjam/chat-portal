@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html style="overflow: hidden !important;">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0, user-scalable=0,viewport-fit=cover">
+    <title>Bangchak</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@3.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <link rel="manifest" type="application/manifest+json" href="../../static/manifest.json">
+    <meta name="msapplication-TileColor" content="#90c0fd">
+    <meta name="theme-color" content="#90c0fd">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-startup-image" href="../../static/img/icons/iconlogoonechat192x192.png"/>
+    <link rel="apple-touch-icon" sizes="192x192" href="../../static/img/icons/iconlogoonechat192x192.png">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <script type="text/javascript" src="https://api.longdo.com/map/?key=f159072800610a2975bf8ef79ddc047d"></script>
+    <script type="text/javascript" src="https://api.longdo.com/address-form/js/addressform.js"></script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://earthchie.github.io/jquery.Thailand.js/jquery.Thailand.js/dependencies/JQL.min.js"></script>
+<script type="text/javascript" src="https://earthchie.github.io/jquery.Thailand.js/jquery.Thailand.js/dependencies/typeahead.bundle.js"></script>
+
+<link rel="stylesheet" href="https://earthchie.github.io/jquery.Thailand.js/jquery.Thailand.js/dist/jquery.Thailand.min.css">
+<script type="text/javascript" src="https://earthchie.github.io/jquery.Thailand.js/jquery.Thailand.js/dist/jquery.Thailand.min.js"></script>
+
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
+
+<script type="text/javascript">
+ if ('serviceWorker' in navigator) {
+  console.log("Will the service worker register?");
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('../../static/service-worker.js').then(function(reg){
+        console.log("Yes, it did.");
+     }).catch(function(err) {
+        console.log("No it didn't. This happened:", err)
+    });
+  })
+ }
+</script>

@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "version": "1",
+  "name": "OneChat etax",
+  "short_name": "OneChat etax",
+  "icons": [
+    {
+      "src": "../../static/img/icons/logoonechat.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "iconPaths": {
+    "favicon32": "../../static/img/icons/logoonechat.png",
+    "favicon16": "../../static/img/icons/logoonechat.png",
+    "appleTouchIcon": "../../static/img/icons/logoonechat.png",
+    "maskIcon": "../../static/img/icons/logoonechat.png",
+    "msTileImage": "../../static/img/icons/logoonechat.png"
+  },
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#90c0fd",
+  "theme_color": "#2562af"
+}
